@@ -1,11 +1,15 @@
 startCommand:
-  type: "stdio"
+  type: "http"
   configSchema:
     type: "object"
-    properties: {}
+    properties:
+      port:
+        type: "number"
+        default: 3000
+        description: "Port to listen on"
   commandFunction: |-
     (config) => ({
       command: "uvx",
-      args: ["REPLACE_ME"],
+      args: ["REPLACE_ME", "--transport", "streamable-http", "--port", String(config.port || 3000)],
       env: {}
     })

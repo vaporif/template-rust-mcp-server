@@ -24,6 +24,8 @@ FILES=(
   src/server.rs
   src/config.rs
   .github/workflows/release.yaml
+  .github/ISSUE_TEMPLATE/bug_report.yml
+  CONTRIBUTING.md
   Dockerfile
 )
 
