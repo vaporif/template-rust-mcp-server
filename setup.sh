@@ -27,6 +27,7 @@ FILES=(
   .github/ISSUE_TEMPLATE/bug_report.yml
   CONTRIBUTING.md
   Dockerfile
+  README.md
 )
 
 # macOS sed requires -i '', GNU sed requires -i

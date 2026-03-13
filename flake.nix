@@ -85,6 +85,7 @@
             pkgs.typos
             pkgs.actionlint
             pkgs.cargo-nextest
+            pkgs.cargo-deny
             pkgs.maturin
             pkgs.uv
           ]
