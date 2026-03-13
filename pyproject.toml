@@ -1,0 +1,23 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "REPLACE_ME"
+dynamic = ["version"]
+description = "REPLACE_ME_DESCRIPTION"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+keywords = ["mcp"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Rust",
+]
+
+[project.urls]
+Repository = "https://github.com/REPLACE_ME_GITHUB_OWNER/REPLACE_ME"
+
+[tool.maturin]
+bindings = "bin"
